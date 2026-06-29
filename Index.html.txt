@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honest Handyman Solutions | Appliance Repair & Electrical in Huntsville, AL</title>
+    <meta name="description" content="Reliable appliance repair, electrical troubleshooting, and professional home maintenance in Huntsville, Madison, and Athens, AL. Honest work at a fair price.">
+    
+    <!-- Clean, Modern Google Font Selection -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Embed CSS Directly So You Only Need One Single File to Upload -->
+    <style>
+        /* Modern CSS Reset & 60-30-10 Color Scheme Rules */
+        * {
+            margin: 0;
+            padding: 0;
+            box-box: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff; /* 60% Component: Crisp, Clean White Background */
+            color: #1e293b;            /* 30% Component: Premium Slate/Dark Navy for Text */
+            line-height: 1.6;
+        }
+
+        /* Layout Structure */
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #0f172a;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+
+        .phone-link {
+            font-weight: 700;
+            color: #0284c7;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 5rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #0f172a;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            max-width: 800px;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #475569;
+            max-width: 650px;
+            margin-bottom: 2.5rem;
+        }
+
+        /* 10% Accent Component: High-Contrast Conversion Buttons */
+        .cta-btn {
+            background-color: #f59e0b; /* Energetic Attention-Grabbing Yellow/Orange */
+            color: #0f172a;
+            padding: 1rem 2.5rem;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #d97706;
+            transform: translateY(-2px);
+        }
+
+        /* Visual Imagery Styles: Non-Flat, Rounded Shadow Blocks */
+        .image-wrapper {
+            width: 100%;
+            max-width: 800px;
+            margin-top: 3rem;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+        }
+
+        /* Services Grid Layout */
+        .services-section {
+            padding: 5rem 2rem;
+            background-color: #ffffff;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.25rem;
+            font-weight: 800;
+            margin-bottom: 3rem;
+            color: #0f172a;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #0f172a;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card p {
+            color: #475569;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .card ul {
+            list-style: none;
+        }
+
+        .card li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.25rem;
+            position: relative;
+            font-size: 0.95rem;
+            color: #334155;
+        }
+
+        .card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #0284c7;
+            font-weight: bold;
+        }
+
+        /* Trust & Footer Section */
+        footer {
+            background-color: #0f172a; /* Sleek dark block to end the page layout */
+            color: #94a3b8;
+            padding: 4rem 2rem;
+            margin-top: 5rem;
+        }
+
+        .footer-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-nap {
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        /* Responsive Mobile Tweak */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.25rem; }
+            .header-container { flex-direction: column; gap: 1rem; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Semantic Header Element -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Honest Handyman Solutions</div>
+            <!-- Update with your real business phone line -->
+            <a href="tel:2565550199" class="phone-link">📞 (256) 555-0199</a>
+        </div>
+    </header>
+
+    <!-- Main Semantic Container for Search Engine Crawlers -->
+    <main>
+        
+        <!-- Hero Section: Clear Intent and Exact Target Locations -->
+        <section class="hero">
+            <h1>Professional Appliance Repair & Home Maintenance in Huntsville, AL</h1>
+            <p>With a deep background in professional property maintenance, I bring real hands-on troubleshooting experience to every home repair. No upselling, no hidden fees—just honest work at a fair price.</p>
+            <a href="tel:2565550199" class="cta-btn">Get a Free Quote Now</a>
+            
+            <!-- Styled Hero Image Wrapper with Hidden SEO Descriptive Text -->
+            <div class="image-wrapper">
+                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Professional property maintenance technician organizing toolbelt for residential repairs">
+            </div>
+        </section>
+
+        <!-- Services Grid: Microservices Mapped directly to Local Search Terms -->
+        <section class="services-section">
+            <h2 class="section-title">Specialized Services</h2>
+            
+            <div class="grid">
+                
+                <!-- Primary Component: Appliance Repair -->
+                <article class="card">
+                    <h3>🔧 Major Appliance Repair</h3>
+                    <p>Struggling with a system that refuses to turn on or run correctly? Get fast, skilled diagnostic service and component replacement.</p>
+                    <ul>
+                        <li>Refrigerator repair and cooling troubleshooting</li>
+                        <li>Washing machine repair & water drainage issues</li>
+                        <li>Clothes dryer repair & heating coil replacement</li>
+                        <li>Dishwasher troubleshooting & pump repairs</li>
+                        <li>Stove & oven heating element fixes</li>
+                    </ul>
+                </article>
+
+                <!-- High-Volume Component: Electrical Symptoms -->
+                <article class="card">
+                    <h3>⚡ Electrical Troubleshooting</h3>
+                    <p>Handling household power faults safely. Don't risk DIY wiring when switches spark or circuits shut down completely.</p>
+                    <ul>
+                        <li>Dead outlet replacement & switch updates</li>
+                        <li>Kitchen & bathroom GFCI safety installations</li>
+                        <li>Tracking why a circuit breaker keeps tripping</li>
+                        <li>Flickering light fixture diagnosis</li>
+                        <li>Wobble-free ceiling fan installation</li>
+                    </ul>
+                </article>
+
+                <!-- Growing High-Intent Component: Mounting & Smart Home -->
+                <article class="card">
+                    <h3>📺 TV Mounting & Hardware</h3>
+                    <p>Clean, secure installations that sit perfectly level with completely hidden wiring for an immaculate living room display.</p>
+                    <ul>
+                        <li>Flat-screen TV wall mounting (all wall surfaces)</li>
+                        <li>In-wall cable concealment & wire hiding</li>
+                        <li>Heavy mirror & floating shelf installation</li>
+                        <li>Secure picture hanging & gallery wall setups</li>
+                        <li>Ring smart doorbell & thermostat configuration</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer: Standardized NAP (Name, Address, Phone) anchor for Google Maps algorithms -->
+    <footer>
+        <div class="footer-container">
+            <p class="footer-nap">Honest Handyman Solutions — Huntsville, AL</p>
+            <p>Proudly serving homeowners in Huntsville, Madison, Athens, and surrounding North Alabama communities.</p>
+            <p style="margin-top: 2rem; font-size: 0.85rem;">&copy; 2026 Honest Handyman Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
