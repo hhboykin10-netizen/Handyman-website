@@ -84,8 +84,9 @@
         .hero p {
             font-size: 1.25rem;
             color: #475569;
-            max-width: 650px;
+            max-width: 750px;
             margin-bottom: 2rem;
+            text-align: justify;
         }
 
         /* High-Contrast Action Buttons */
@@ -177,20 +178,36 @@
             flex-direction: column;
         }
 
-        .card h3 {
+        .card h2 {
             font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
             color: #0f172a;
+            border-left: 4px solid #0284c7;
+            padding-left: 8px;
         }
 
         .card p {
             color: #475569;
             margin-bottom: 1.5rem;
             font-size: 0.95rem;
+            text-align: justify;
         }
 
-        .card ul { list-style: none; }
+        .card .silo-link {
+            display: inline-block;
+            margin-top: auto;
+            font-weight: 700;
+            color: #0284c7;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .card .silo-link:hover {
+            text-decoration: underline;
+        }
+
+        .card ul { list-style: none; margin-bottom: 1.5rem; }
 
         .card li {
             margin-bottom: 0.5rem;
@@ -331,10 +348,10 @@
 
     <main>
         
-        <!-- Hero Section: Clear Identity & Instant Answer -->
+        <!-- Hero Section: Core 30 Architectural Base Map -->
         <section class="hero">
-            <h1>Professional Appliance Repair & Home Maintenance in Huntsville, AL</h1>
-            <p>With a deep background in professional property maintenance, I bring real hands-on troubleshooting experience to every home repair. No upselling, no hidden fees—just honest work at a fair price.</p>
+            <h1>Appliance Repair in Huntsville, Alabama</h1>
+            <p>Last winter, while families were planning weekend outings over at the U.S. Space & Rocket Center or heading down to check out new events at MidCity, half of Huntsville called us to fix broken appliances. Whether you are dealing with a refrigerator failing completely right down near Memorial Parkway or a washing machine throwing bad error codes up by Monte Sano State Park, we understand how easily a broken appliance throws your household out of loop. We handle professional troubleshooting, appliance diagnostics, and part replacements across North Alabama with direct, upfront pricing.</p>
             
             <a href="tel:2565550199" class="cta-btn">Get a Free Quote Now</a>
 
@@ -346,20 +363,20 @@
             </div>
             
             <div class="image-wrapper">
-                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Professional property maintenance technician organizing toolbelt for residential repairs">
+                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Professional appliance repair technician analyzing localized component layouts">
             </div>
         </section>
 
-        <!-- The Problem-Matching Service Grid -->
+        <!-- The Problem-Matching Service Grid (Launchpad Architecture) -->
         <section class="services-section">
             <h2 class="section-title">Specialized Services</h2>
             
             <div class="grid">
                 
-                <!-- Card 1: Major Appliance Repair -->
+                <!-- Card 1: Major Appliance Repair (Primary Focus Block) -->
                 <article class="card">
-                    <h3>🔧 Major Appliance Repair</h3>
-                    <p>Struggling with a household system that refuses to turn on, leak, or cool properly? Get fast, skilled troubleshooting and component replacement.</p>
+                    <h2>Appliance Repair</h2>
+                    <p>When major home devices stop running or leak water onto your kitchen floors, finding quick local help keeps your house operating cleanly. Our technicians resolve common failures across your kitchen laundry systems. We provide comprehensive refrigerator repair, fast dishwasher repair troubleshooting, stove repair diagnostics, washer repair tuning, and clothes dryer repair component updates across the Huntsville region.</p>
                     <ul>
                         <li>Refrigerator repair and cooling troubleshooting</li>
                         <li>Washing machine repair & water drainage issues</li>
@@ -367,32 +384,46 @@
                         <li>Dishwasher troubleshooting & pump repairs</li>
                         <li>Stove & oven heating element fixes</li>
                     </ul>
+                    <a href="/appliance-repair.html" class="silo-link">View our local appliance repair services in Huntsville &rarr;</a>
                 </article>
 
-                <!-- Card 2: Electrical Troubleshooting -->
+                <!-- Card 2: Electrical Services (Secondary Silo Block) -->
                 <article class="card">
-                    <h3>⚡ Electrical Troubleshooting</h3>
-                    <p>Handling household power faults safely. Don't risk DIY wiring when switches spark or circuits shut down completely.</p>
+                    <h2>Electrical Services</h2>
+                    <p>Residential wire failures require methodical electrical troubleshooting near John Hunt Park to clear up hidden hazards behind your walls. We update old wiring and devices to safe modern standards. Our local service covers safe switch replacement jobs, rapid main outlet replacement fixes, and exterior or interior GFCI outlet install updates for wet environments. We also offer wobble-free residential ceiling fan replacement and decorative light fixture replacement updates.</p>
                     <ul>
+                        <li>Electrical troubleshooting and circuit diagnostics</li>
                         <li>Dead outlet replacement & switch updates</li>
                         <li>Kitchen & bathroom GFCI safety installations</li>
-                        <li>Tracking why a circuit breaker keeps tripping</li>
-                        <li>Flickering light fixture diagnosis</li>
-                        <li>Wobble-free ceiling fan installation</li>
+                        <li>Light fixture replacement & hanging light installs</li>
+                        <li>Wobble-free ceiling fan replacement</li>
                     </ul>
+                    <a href="/electrical-services.html" class="silo-link">Discover our residential electrical services in Huntsville &rarr;</a>
                 </article>
 
-                <!-- Card 3: TV Mounting & Hardware -->
+                <!-- Card 3: Mounting Services (Secondary Silo Block) -->
                 <article class="card">
-                    <h3>📺 TV Mounting & Hardware</h3>
-                    <p>Clean, secure installations that sit perfectly level with completely hidden wiring for an immaculate living room display.</p>
+                    <h2>Mounting Services</h2>
+                    <p>Securing structural anchors to local drywall systems requires specific knowledge of building frames to keep your electronics stable. We calculate your exact framing support lines to handle safe TV mounting systems without piercing internal utilities or tearing wall panels. Our local technicians also safely hang mirrors, art layouts, and custom shelving structures cleanly so they stay perfectly level across any wall material.</p>
                     <ul>
                         <li>Flat-screen TV wall mounting (all wall surfaces)</li>
-                        <li>In-wall cable concealment & wire hiding</li>
-                        <li>Heavy mirror & floating shelf installation</li>
+                        <li>Secure stud finding & heavy wall anchoring</li>
+                        <li>Professional help to hang mirrors safely</li>
                         <li>Secure picture hanging & gallery wall setups</li>
-                        <li>Ring smart doorbell & thermostat configuration</li>
                     </ul>
+                    <a href="/mounting-services.html" class="silo-link">Explore our professional home mounting services in Huntsville &rarr;</a>
+                </article>
+
+                <!-- Card 4: Smart Home Installation (Secondary Silo Block) -->
+                <article class="card">
+                    <h2>Smart Home Installation</h2>
+                    <p>Local home automation setups depend heavily on clean system pairing and stable device placement to operate properly. We install connected equipment to maximize your security layout and improve your home energy management. Our residential services cover full Ring doorbell install configurations, smart thermostat install programming to reduce seasonal power usage, and complete home security system install adjustments.</p>
+                    <ul>
+                        <li>Ring doorbell install & camera configurations</li>
+                        <li>Smart thermostat install & programming</li>
+                        <li>Security system install & sensor calibration</li>
+                    </ul>
+                    <a href="/smart-home-installation.html" class="silo-link">See our full smart home installation services in Huntsville &rarr;</a>
                 </article>
 
             </div>
