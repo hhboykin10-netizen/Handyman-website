@@ -3,471 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honest Handyman Solutions | Appliance Repair & Electrical in Huntsville, AL</title>
-    <meta name="description" content="Reliable appliance repair, electrical troubleshooting, and professional home maintenance in Huntsville, Madison, and Athens, AL. Honest work at a fair price.">
-    
-    <!-- Clean, Modern Google Font Selection -->
+    <title>Honest Handyman Solutions | Huntsville AL | Professional Handyman Services</title>
+    <meta name="description" content="Affordable, professional, and reliable residential handyman services in Huntsville, AL. Transparent flat-rate pricing for plumbing, electrical, doors, trim, and smart home setups.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Embed CSS Directly So You Only Need One Single File to Upload -->
     <style>
-        /* Modern CSS Reset & Color Scheme Rules */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #ffffff; /* Pure White Background */
-            color: #1e293b;            /* Premium Dark Slate for Text */
-            line-height: 1.6;
-            padding-bottom: 60px; /* Space for Mobile Sticky Button */
-        }
-
-        /* Layout Structure */
-        header {
-            background-color: #ffffff;
-            border-bottom: 1px solid #e2e8f0;
-            padding: 1.5rem 2rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .header-container {
-            max-width: 1100px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.4rem;
-            font-weight: 800;
-            color: #0f172a;
-            text-transform: uppercase;
-            letter-spacing: -0.5px;
-        }
-
-        .phone-link {
-            font-weight: 700;
-            color: #0284c7;
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #1e293b; line-height: 1.6; }
+        
+        /* Navigation */
+        header { background-color: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 1.25rem 2rem; position: sticky; top: 0; z-index: 100; }
+        .header-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.4rem; font-weight: 800; color: #0f172a; text-transform: uppercase; text-decoration: none; letter-spacing: -0.5px; }
+        .phone-link { font-weight: 700; color: #0284c7; text-decoration: none; font-size: 1.1rem; border: 2px solid #e2e8f0; padding: 0.5rem 1rem; border-radius: 6px; transition: all 0.2s; }
+        .phone-link:hover { background-color: #f8fafc; border-color: #0284c7; }
 
         /* Hero Section */
-        .hero {
-            padding: 4rem 2rem 3rem 2rem;
-            max-width: 1100px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
+        .hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; padding: 6rem 2rem; text-align: center; }
+        .hero-container { max-width: 850px; margin: 0 auto; }
+        .hero h1 { font-size: 3.25rem; font-weight: 800; line-height: 1.15; margin-bottom: 1.5rem; letter-spacing: -1px; }
+        .hero p { font-size: 1.25rem; color: #94a3b8; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .hero-cta { background-color: #f59e0b; color: #0f172a; padding: 1.1rem 2.5rem; font-weight: 700; text-decoration: none; border-radius: 8px; display: inline-block; font-size: 1.1rem; transition: background 0.2s; }
+        .hero-cta:hover { background-color: #d97706; }
 
-        h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            color: #0f172a;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            max-width: 850px;
-        }
+        /* Main Content Container */
+        .main-container { max-width: 1200px; margin: 0 auto; padding: 5rem 2rem; }
+        
+        /* Intro Pitch */
+        .intro-section { text-align: center; max-width: 800px; margin: 0 auto 5rem auto; }
+        .intro-section h2 { font-size: 2.2rem; color: #0f172a; font-weight: 800; margin-bottom: 1rem; }
+        .intro-section p { font-size: 1.15rem; color: #475569; }
 
-        .hero p {
-            font-size: 1.25rem;
-            color: #475569;
-            max-width: 750px;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
+        /* Silo Core Grid */
+        .silo-heading { font-size: 1.8rem; font-weight: 800; color: #0f172a; margin-bottom: 2rem; border-left: 5px solid #0284c7; padding-left: 15px; }
+        .grid-layout { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem; margin-bottom: 5rem; }
+        
+        .silo-block { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 2.5rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .silo-block:hover { transform: translateY(-3px); box-shadow: 0 12px 20px -3px rgba(0,0,0,0.04); }
+        .silo-title { font-size: 1.45rem; font-weight: 700; color: #0f172a; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; }
+        .silo-title a { color: #0f172a; text-decoration: none; }
+        .silo-title a:hover { color: #0284c7; }
+        .silo-desc { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+        
+        /* Internal Linking Architecture */
+        .link-list { list-style: none; border-top: 1px solid #f1f5f9; padding-top: 1.25rem; }
+        .link-list li { margin-bottom: 0.75rem; }
+        .link-list a { color: #0284c7; text-decoration: none; font-weight: 600; font-size: 0.95rem; display: inline-flex; align-items: center; gap: 0.5rem; }
+        .link-list a:hover { text-decoration: underline; color: #0369a1; }
 
-        /* High-Contrast Action Buttons */
-        .cta-btn {
-            background-color: #f59e0b; /* Accent Component: Attention-Grabbing Yellow */
-            color: #0f172a;
-            padding: 1rem 2.5rem;
-            font-weight: 700;
-            font-size: 1.1rem;
-            text-decoration: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            transition: all 0.2s ease;
-            display: inline-block;
-        }
+        /* Trust/Value Prop Grid */
+        .trust-section { background-color: #f8fafc; border-radius: 16px; padding: 4rem 3rem; margin-top: 2rem; }
+        .trust-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2.5rem; }
+        @media (max-width: 768px) { .trust-grid { grid-template-columns: 1fr; } }
+        .trust-card h4 { font-size: 1.2rem; color: #0f172a; margin-bottom: 0.5rem; font-weight: 700; }
+        .trust-card p { color: #64748b; font-size: 0.95rem; }
 
-        .cta-btn:hover {
-            background-color: #d97706;
-            transform: translateY(-2px);
-        }
-
-        /* High-Conversion Trust Stack Element */
-        .trust-stack {
-            display: flex;
-            gap: 2rem;
-            margin-top: 2rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .trust-badge {
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: #475569;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            background: #f8fafc;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            border: 1px solid #e2e8f0;
-        }
-
-        .stars { color: #f59e0b; font-weight: bold; }
-
-        /* Hero Image Container */
-        .image-wrapper {
-            width: 100%;
-            max-width: 800px;
-            margin-top: 3rem;
-        }
-
-        .image-wrapper img {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
-        }
-
-        /* Services Grid Layout */
-        .services-section {
-            padding: 5rem 2rem;
-            background-color: #ffffff;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.25rem;
-            font-weight: 800;
-            margin-bottom: 3rem;
-            color: #0f172a;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2.5rem;
-        }
-
-        .card {
-            background: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .card h2 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            color: #0f172a;
-            border-left: 4px solid #0284c7;
-            padding-left: 8px;
-        }
-
-        .card p {
-            color: #475569;
-            margin-bottom: 1.5rem;
-            font-size: 0.95rem;
-            text-align: justify;
-        }
-
-        .card .silo-link {
-            display: inline-block;
-            margin-top: auto;
-            font-weight: 700;
-            color: #0284c7;
-            text-decoration: none;
-            font-size: 0.95rem;
-        }
-
-        .card .silo-link:hover {
-            text-decoration: underline;
-        }
-
-        .card ul { list-style: none; margin-bottom: 1.5rem; }
-
-        .card li {
-            margin-bottom: 0.5rem;
-            padding-left: 1.25rem;
-            position: relative;
-            font-size: 0.95rem;
-            color: #334155;
-        }
-
-        .card li::before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #0284c7;
-            font-weight: bold;
-        }
-
-        /* Social Proof/Review Section */
-        .reviews-section {
-            background-color: #f8fafc;
-            padding: 5rem 2rem;
-            border-top: 1px solid #e2e8f0;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        .reviews-container {
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .review-card {
-            background: #ffffff;
-            border: 1px solid #e2e8f0;
-            padding: 2rem;
-            border-radius: 12px;
-            max-width: 700px;
-            margin: 0 auto 1.5rem auto;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-        }
-
-        .review-text {
-            font-style: italic;
-            color: #334155;
-            margin-bottom: 1rem;
-        }
-
-        .review-author {
-            font-weight: 700;
-            color: #0f172a;
-            font-size: 0.95rem;
-        }
-
-        /* Final Safety Net Call to Action */
-        .final-cta {
-            padding: 5rem 2rem;
-            text-align: center;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .final-cta h2 {
-            font-size: 2rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-        }
-
-        .final-cta p {
-            color: #475569;
-            margin-bottom: 2rem;
-        }
-
-        /* Footer Element */
-        footer {
-            background-color: #0f172a;
-            color: #94a3b8;
-            padding: 4rem 2rem;
-        }
-
-        .footer-container {
-            max-width: 1100px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .footer-nap {
-            color: #ffffff;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
-        }
-
-        /* Friction Reducer: Sticky Mobile Tap-To-Call Button Bar */
-        .mobile-sticky-bar {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #ffffff;
-            border-top: 1px solid #e2e8f0;
-            padding: 0.75rem 1rem;
-            z-index: 1000;
-            box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
-        }
-
-        .mobile-sticky-btn {
-            background-color: #f59e0b;
-            color: #0f172a;
-            text-decoration: none;
-            font-weight: 700;
-            text-align: center;
-            display: block;
-            width: 100%;
-            padding: 0.85rem;
-            border-radius: 8px;
-            font-size: 1.1rem;
-        }
-
-        /* Responsive Breakpoints */
-        @media (max-width: 768px) {
-            h1 { font-size: 2.25rem; }
-            .header-container { flex-direction: column; gap: 1rem; text-align: center; }
-            .mobile-sticky-bar { display: block; }
-            .trust-stack { gap: 0.75rem; }
-        }
+        /* Footer Call To Action Box */
+        .cta-strip { background-color: #f8fafc; border: 1px solid #e2e8f0; padding: 3.5rem 2rem; border-radius: 12px; text-align: center; margin-top: 5rem; }
+        .cta-strip h3 { font-size: 1.8rem; color: #0f172a; font-weight: 800; margin-bottom: 0.5rem; }
+        .cta-strip p { font-size: 1.1rem; color: #475569; margin-bottom: 1.5rem; }
+        
+        footer { background-color: #0f172a; color: #94a3b8; padding: 3rem 2rem; text-align: center; font-size: 0.9rem; margin-top: 6rem; border-top: 4px solid #f59e0b; }
     </style>
 </head>
 <body>
 
-    <!-- Global Header -->
     <header>
         <div class="header-container">
-            <div class="logo">Honest Handyman Solutions</div>
-            <!-- Update with your real business phone line -->
-            <a href="tel:2565550199" class="phone-link">📞 (256) 555-0199</a>
+            <a href="index.html" class="logo">Honest Handyman Solutions</a>
+            <a href="tel:2566065399" class="phone-link">📞 (256) 606-5399</a>
         </div>
     </header>
 
-    <main>
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Professional Handyman Services in Huntsville, Alabama</h1>
+            <p>Reliable, top-quality home repairs, installations, and maintenance. Transparent flat-rate pricing, crisp craftsmanship, and absolute respect for your home.</p>
+            <a href="tel:2566065399" class="hero-cta">Call (256) 606-5399 For A Free Quote</a>
+        </div>
+    </section>
+
+    <main class="main-container">
         
-        <!-- Hero Section: Core 30 Architectural Base Map -->
-        <section class="hero">
-            <h1>Appliance Repair in Huntsville, Alabama</h1>
-            <p>When a major household machine breaks down, your entire schedule grinds to a halt. We understand how disruptive a leaking refrigerator or a malfunctioning washing machine can be to your day. That is why we provide straightforward appliance diagnostics, reliable troubleshooting, and component replacements across the Huntsville area. No upselling or surprise fees—just honest, upfront pricing to get your home running smoothly again.</p>
+        <div class="intro-section">
+            <h2>Your Go-To Local Home Repair Professionals</h2>
+            <p>Staring down a growing list of home honey-dos? Skip the flaky contractors and stressful DIY guesswork. We handle everything from leaky kitchen faucets and broken garbage disposals to drywall patching, custom trim carpentry, and smart home mounting setups seamlessly.</p>
+        </div>
+
+        <h3 class="silo-heading">Explore Our Specialized Service Silos</h3>
+        
+        <div class="grid-layout">
             
-            <a href="tel:2565550199" class="cta-btn">Get a Free Quote Now</a>
-
-            <!-- The Trust Stack: Immediate Validation Below Button -->
-            <div class="trust-stack">
-                <span class="trust-badge"><span class="stars">★★★★★</span> Google Verified</span>
-                <span class="trust-badge">🛠️ Certified Professional</span>
-                <span class="trust-badge">🔒 Fully Insured</span>
-            </div>
-            
-            <div class="image-wrapper">
-                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Professional appliance repair technician analyzing localized component layouts">
-            </div>
-        </section>
-
-        <!-- The Problem-Matching Service Grid (Launchpad Architecture) -->
-        <section class="services-section">
-            <h2 class="section-title">Specialized Services</h2>
-            
-            <div class="grid">
-                
-                <!-- Card 1: Major Appliance Repair (Primary Focus Block) -->
-                <article class="card">
-                    <h2>Appliance Repair</h2>
-                    <p>When major home devices stop running or leak water onto your kitchen floors, finding quick local help keeps your house operating cleanly. Our technicians resolve common failures across your kitchen laundry systems. We provide comprehensive refrigerator repair, fast dishwasher repair troubleshooting, stove repair diagnostics, washer repair tuning, and clothes dryer repair component updates across the Huntsville region.</p>
-                    <ul>
-                        <li>Refrigerator repair and cooling troubleshooting</li>
-                        <li>Washing machine repair & water drainage issues</li>
-                        <li>Clothes dryer repair & heating coil replacement</li>
-                        <li>Dishwasher troubleshooting & pump repairs</li>
-                        <li>Stove & oven heating element fixes</li>
-                    </ul>
-                    <a href="appliance-repair.html" class="silo-link">View our local appliance repair services in Huntsville &rarr;</a>
-                </article>
-
-                <!-- Card 2: Electrical Services (Secondary Silo Block) -->
-                <article class="card">
-                    <h2>Electrical Services</h2>
-                    <p>Residential wire failures require methodical electrical troubleshooting near John Hunt Park to clear up hidden hazards behind your walls. We update old wiring and devices to safe modern standards. Our local service covers safe switch replacement jobs, rapid main outlet replacement fixes, and exterior or interior GFCI outlet install updates for wet environments. We also offer wobble-free residential ceiling fan replacement and decorative light fixture replacement updates.</p>
-                    <ul>
-                        <li>Electrical troubleshooting and circuit diagnostics</li>
-                        <li>Dead outlet replacement & switch updates</li>
-                        <li>Kitchen & bathroom GFCI safety installations</li>
-                        <li>Light fixture replacement & hanging light installs</li>
-                        <li>Wobble-free ceiling fan replacement</li>
-                    </ul>
-                    <a href="electrical-services.html" class="silo-link">Discover our residential electrical services in Huntsville &rarr;</a>
-                </article>
-
-                <!-- Card 3: Mounting Services (Secondary Silo Block) -->
-                <article class="card">
-                    <h2>Mounting Services</h2>
-                    <p>Securing structural anchors to local drywall systems requires specific knowledge of building frames to keep your electronics stable. We calculate your exact framing support lines to handle safe TV mounting systems without piercing internal utilities or tearing wall panels. Our local technicians also safely hang mirrors, art layouts, and custom shelving structures cleanly so they stay perfectly level across any wall material.</p>
-                    <ul>
-                        <li>Flat-screen TV wall mounting (all wall surfaces)</li>
-                        <li>Secure stud finding & heavy wall anchoring</li>
-                        <li>Professional help to hang mirrors safely</li>
-                        <li>Secure picture hanging & gallery wall setups</li>
-                    </ul>
-                    <a href="mounting-services.html" class="silo-link">Explore our professional home mounting services in Huntsville &rarr;</a>
-                </article>
-
-                <!-- Card 4: Smart Home Installation (Secondary Silo Block) -->
-                <article class="card">
-                    <h2>Smart Home Installation</h2>
-                    <p>Local home automation setups depend heavily on clean system pairing and stable device placement to operate properly. We install connected equipment to maximize your security layout and improve your home energy management. Our residential services cover full Ring doorbell install configurations, smart thermostat install programming to reduce seasonal power usage, and complete home security system install adjustments.</p>
-                    <ul>
-                        <li>Ring doorbell install & camera configurations</li>
-                        <li>Smart thermostat install & programming</li>
-                        <li>Security system install & sensor calibration</li>
-                    </ul>
-                    <a href="smart-home-installation.html" class="silo-link">See our full smart home installation services in Huntsville &rarr;</a>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- Social Proof Section: The Review Block -->
-        <section class="reviews-section">
-            <div class="reviews-container">
-                <h2 class="section-title">What Your Neighbors Are Saying</h2>
-                
-                <div class="review-card">
-                    <p class="review-text">"He showed up exactly when he said he would and tracked down why our refrigerator stopped cooling within twenty minutes. Super honest and didn't try to upscale us on parts. Highly recommend!"</p>
-                    <p class="review-author">— Sarah M., Huntsville</p>
+            <div class="silo-block">
+                <div class="silo-title">
+                    <a href="fan-light-fixtures.html">💡 Fan & Light Services</a>
+                    <span>&rarr;</span>
                 </div>
+                <p class="silo-desc">Safe replacement and precise structural mounting for home electrical fixtures, smart switches, and heating units.</p>
+                <ul class="link-list">
+                    <li><a href="electrical-ceiling-fan-install.html">Ceiling Fan Installation</a></li>
+                    <li><a href="electrical-light-fixture-replacement.html">Light Fixture Replacement</a></li>
+                    <li><a href="electrical-outlet-gfc-upgrade.html">Outlet & GFCI Upgrades</a></li>
+                    <li><a href="electrical-bathroom-exhaust-fan.html">Bathroom Exhaust Fans</a></li>
+                </ul>
+            </div>
 
-                <div class="review-card">
-                    <p class="review-text">"Excellent work fixing a dead outlet in our kitchen and mounting a heavy TV in the living room. Everything looks perfect and clean."</p>
-                    <p class="review-author">— James R., Madison</p>
+            <div class="silo-block">
+                <div class="silo-title">
+                    <a href="cabinet-hardware-hinges.html">🚪 Cabinet Hardware & Tuning</a>
+                    <span>&rarr;</span>
+                </div>
+                <p class="silo-desc">Professional updates for interior hardware, hidden alignment repairs, and security modifications.</p>
+                <ul class="link-list">
+                    <li><a href="cabinet-pull-knob-installation.html">Pull & Knob Installation</a></li>
+                    <li><a href="cabinet-hinge-repair-realignment.html">Hinge Repair & Alignment</a></li>
+                    <li><a href="cabinet-drawer-slide-replacement.html">Drawer Slide Replacement</a></li>
+                    <li><a href="cabinet-child-safety-locks.html">Child Safety Lock Setup</a></li>
+                </ul>
+            </div>
+
+            <div class="silo-block">
+                <div class="silo-title">
+                    <a href="plumbing-services.html">💧 Plumbing Repairs & Upgrades</a>
+                    <span>&rarr;</span>
+                </div>
+                <p class="silo-desc">Dependable undersink pipe transformations, watertight leak repairs, and fresh appliance fittings.</p>
+                <ul class="link-list">
+                    <li><a href="plumbing-kitchen-faucet-install.html">Kitchen Faucet Installation</a></li>
+                    <li><a href="plumbing-toilet-repair-install.html">Toilet Repair & Re-Sealing</a></li>
+                    <li><a href="plumbing-garbage-disposal-install.html">Garbage Disposal Swaps</a></li>
+                    <li><a href="plumbing-sink-trap-replacement.html">Sink Drain & P-Trap Fixes</a></li>
+                </ul>
+            </div>
+
+            <div class="silo-block">
+                <div class="silo-title">
+                    <a href="drywall-repair.html">🪵 Drywall & Trim Carpentry</a>
+                    <span>&rarr;</span>
+                </div>
+                <p class="silo-desc">Flawless, dust-controlled wall patching, seamless texture matching, and crisp miter-cut finish molding lines.</p>
+                <ul class="link-list">
+                    <li><a href="drywall-patching-texture-matching.html">Drywall Hole Patching</a></li>
+                    <li><a href="drywall-baseboard-trim-installation.html">Baseboard & Trim Fitting</a></li>
+                    <li><a href="drywall-crown-molding-install.html">Crown Molding Installation</a></li>
+                    <li><a href="drywall-door-hanging-alignment.html">Door Hanging & Realignment</a></li>
+                </ul>
+            </div>
+
+            <div class="silo-block">
+                <div class="silo-title">
+                    <a href="smart-home-assembly.html">🛠️ Smart Home & Assembly</a>
+                    <span>&rarr;</span>
+                </div>
+                <p class="silo-desc">Safe stud-locked wall mounting, stress-free flat-pack assembly, and modern household tech deployment.</p>
+                <ul class="link-list">
+                    <li><a href="assembly-tv-wall-mounting.html">Secure TV Wall Mounting</a></li>
+                    <li><a href="assembly-furniture-flatpack.html">Flat-Pack Furniture Assembly</a></li>
+                    <li><a href="assembly-smart-doorbell-lock.html">Smart Doorbells & Locks</a></li>
+                    <li><a href="assembly-blinds-curtains.html">Blinds & Curtain Rod Hanging</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="trust-section">
+            <h3 style="font-size: 1.6rem; font-weight: 800; color: #0f172a; text-align: center;">Why Madison County Homeowners Choose Honest Handyman Solutions</h3>
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <h4>💯 Upfront Flat Rates</h4>
+                    <p>No sketchy hidden truck charges or surprise hourly fees. You will know exactly what the work costs before we ever open a toolbag.</p>
+                </div>
+                <div class="trust-card">
+                    <h4>🛠️ Crisp Craftsmanship</h4>
+                    <p>We respect your property lines. We utilize drop cloths, clean our workspaces fully, and execute repairs to a high commercial standard.</p>
+                </div>
+                <div class="trust-card">
+                    <h4>📍 Proudly Serving Huntsville</h4>
+                    <p>From central downtown to Madison, Harvest, and Hampton Cove, we respond quickly with local reliability you can count on.</p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- Final Safety Net Call to Action -->
-        <section class="final-cta">
-            <h2>Ready to Clear Your Home's To-Do List?</h2>
-            <p>Get reliable, expert repair service without the hassle or surprise fees.</p>
-            <a href="tel:2565550199" class="cta-btn">Call (256) 555-0199</a>
-        </section>
+        <div class="cta-strip">
+            <h3>Ready to Cross Off Your Home Honey-Do List?</h3>
+            <p>Get flat-rate pricing and reliable local service scheduled today. No project is too small.</p>
+            <a href="tel:2566065399" class="hero-cta" style="margin-top:0;">Call Now: (256) 606-5399</a>
+        </div>
 
     </main>
 
-    <!-- Local Anchor Footer -->
     <footer>
-        <div class="footer-container">
-            <p class="footer-nap">Honest Handyman Solutions — Huntsville, AL</p>
-            <p>Proudly serving homeowners in Huntsville, Madison, Athens, and surrounding North Alabama communities.</p>
-            <p style="margin-top: 2rem; font-size: 0.85rem;">&copy; 2026 Honest Handyman Solutions. All rights reserved.</p>
-        </div>
+        <p>&copy; 2026 Honest Handyman Solutions. Huntsville, AL. All rights reserved.</p>
     </footer>
-
-    <!-- Mobile Sticky Tap-To-Call Bar -->
-    <div class="mobile-sticky-bar">
-        <a href="tel:2565550199" class="mobile-sticky-btn">📞 Tap to Call for a Quote</a>
-    </div>
 
 </body>
 </html>
